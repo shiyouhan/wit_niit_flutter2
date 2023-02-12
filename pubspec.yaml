@@ -1,0 +1,126 @@
+name: wit_niit_flutter2
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  #  虚线边框
+  dotted_border: ^2.0.0+3
+  #  假数据
+  faker: ^2.0.0
+  #  表情包
+  emoji_picker_flutter: ^1.5.0
+  #  日历
+  r_calendar: ^0.1.11
+  #  扫一扫
+  barcode_scan2: ^4.2.1
+  #  API
+  web_socket_channel: ^2.2.0
+  #  聊天框
+  wrapper: ^1.0.2
+  #  气泡弹窗卡片
+  popover: ^0.2.7
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  # 状态管理、路由管理、国际化、改变主题、中间件
+  get: 4.6.5
+  #下拉刷新
+  pull_to_refresh: ^2.0.0
+  #网络请求
+  dio: ^4.0.6
+  #存储
+  #  shared_preferences: any
+  #获取版本信息
+  package_info: any
+  #屏幕适配
+  flutter_screenutil: ^5.0.0+2
+  #加载框
+  flutter_easyloading: ^3.0.5
+  #Flutter常用工具类库： https://github.com/Sky24n/flustars
+  flustars: ^2.0.1
+  # 国际化
+  intl: ^0.17.0
+  #跳转网页
+  url_launcher: any
+  #拍照、图片选择
+  images_picker: ^1.2.11
+  image_picker: ^0.8.6
+  #图片预览
+  photo_view: ^0.14.0
+  #网络加载图
+  cached_network_image: any
+  #通知权限
+  notification_permissions: ^0.6.1
+  # 百度地图
+  flutter_bmflocation: ^3.3.0
+  flutter_baidu_mapapi_map: ^3.0.0+2
+  flutter_baidu_mapapi_search: ^3.0.0
+  # 权限请求
+  permission_handler: ^10.2.0
+
+  table_calendar: ^3.0.8
+  flutter_datetime_picker: ^1.5.1
+  timer_controller: ^0.1.0
+  #时间处理
+  flutter_picker: ^2.0.5
+  fluttertoast: ^8.1.1
+  date_format: ^2.0.7
+  flutter_pickers: ^2.1.9
+  # 文件大小
+  filesize: ^2.0.1
+  #播放器插件
+  fijkplayer:
+  fijkplayer_skin:
+    git:
+      url: https://github.com/war1644/fijkplayer_skin.git
+
+  #表单验证
+  form_validator:
+  #直播推流
+  haishin_kit:
+  #音频会话
+  audio_session:
+
+
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/tup.png
+    - assets/fonts/
+    - assets/images/add_user.png
+    - assets/images/group.png
+    - assets/images/weixin.png
+  fonts:
+    #    - family：字体名称
+    - family: Iconfont
+      fonts:
+        #        - asset: assets/fonts/icons2/iconfont.ttf
+        - asset: assets/fonts/iconfont.ttf
+
+
+
+    - family: Iconfont
+      fonts:
+        - asset: assets/fonts/icons/iconfont.ttf
+
+
+
+#        -  asset: assets/icons/iconfont.ttf
+
+
+
+
+flutter_intl:
+  enabled: true
